@@ -17,7 +17,7 @@
     ],
     "repository": "marmelab/react-admin",
     "homepage": "https://github.com/marmelab/react-admin#readme",
-    "bugs": "https://github.com/marmelab/react-admin/issues",
+    "bugs": "https:/github.com/marmelab/react-admin/issues",
     "license": "MIT",
     "scripts": {
         "build": "yarn run build-cjs && yarn run build-esm",
