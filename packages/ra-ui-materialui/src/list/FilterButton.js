@@ -71,6 +71,7 @@ export class FilterButton extends Component {
             displayedFilters,
             filterValues,
             translate,
+            icon = <ContentFilter />,
             ...rest
         } = this.props;
         const { open, anchorEl } = this.state;
@@ -86,7 +87,7 @@ export class FilterButton extends Component {
                         label="ra.action.add_filter"
                         onClick={this.handleClickButton}
                     >
-                        <ContentFilter />
+                       {icon}
                     </Button>
                     <Menu
                         open={open}
